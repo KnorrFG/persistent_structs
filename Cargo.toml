@@ -1,0 +1,17 @@
+[package]
+name = "persistent-structs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A Macro that generate helper functions to make non-mutable structs nicer to use"
+repository = "https://github.com/KnorrFG/persistent_structs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.21"
+syn = { version = "1.0.103", features = ["full"]}
