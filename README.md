@@ -1,4 +1,4 @@
-# Persitent Structs 
+# Persistent Structs 
 
 A small derive Macro for structs, that generates a `with_<name>` and `update_<name>`
 method for each field of a struct, e.g:
