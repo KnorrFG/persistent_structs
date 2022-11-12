@@ -1,6 +1,6 @@
 [package]
 name = "persistent-structs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "A Macro that generate helper functions to make non-mutable structs nicer to use"

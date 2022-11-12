@@ -28,4 +28,4 @@ install via:
 ```
 
 (requires cargo-add, otherwise figure out the current version number in at 
-[docs.rs](docs.rs/persistent-structs), and add it manually)
+[docs.rs](https://docs.rs/persistent-structs), and add it manually)

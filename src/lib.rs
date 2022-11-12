@@ -8,16 +8,16 @@
 //!
 //! #[derive(PersistentStruct, PartialEq)]
 //! struct Foo {
-//! pub foo: u8,
+//!     pub foo: u8,
 //! }
 //!
 //! fn main() {
-//! let foo = Foo { foo: 1 };
-//! let foo = foo.with_foo(5);
-//! assert!(foo == Foo { foo: 5 });
+//!     let foo = Foo { foo: 1 };
+//!     let foo = foo.with_foo(5);
+//!     assert!(foo == Foo { foo: 5 });
 //!
-//! let foo = foo.update_foo(|x| x + 1);
-//! assert!(foo.foo == 6);
+//!     let foo = foo.update_foo(|x| x + 1);
+//!     assert!(foo.foo == 6);
 //! }
 //! ```
 
